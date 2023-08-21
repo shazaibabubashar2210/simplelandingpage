@@ -1,0 +1,112 @@
+@media only screen and (max-width: 350px) {
+    .container {
+        height: 75vh;
+        width: 100vw;
+        background-image: url(background-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  .content h1 {
+    margin-bottom: 0.7rem;
+    font-size: 0.8rem;
+  }
+  .content {
+    padding: 1rem 1rem;
+  }
+  .content h1,
+  p {
+    color: #926236;
+    font-size: 0.6rem;
+  }
+  button {
+    background: none;
+      background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 0.3rem 2rem;
+    border: 1px solid #926236;
+    border-radius: 10px;
+    color: #926236;
+    margin-top: 0.7rem;
+    cursor: pointer;
+    font-size: 0.6rem;
+  }
+  .section-a {
+    background-color: #926236;
+    padding: 1rem 1rem;
+  }
+  .section-a p{
+    font-size: 0.5rem;
+  }
+  .main-box-section{
+    flex-direction: column;
+    height: 59vh;
+  }
+  #box2 {
+    padding: 0.5rem 1rem;
+    background-color: #f4f4f4;
+  }
+  #box3 {
+    color: #fff;
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (min-width:351px) and (max-width:650px) {
+        .container {
+            height: 75vh;
+            width: 100vw;
+            background-image: url(background-image.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+      .content h1 {
+        margin-bottom: 0.7rem;
+        font-size: 0.8rem;
+      }
+      .content {
+        padding: 1rem 1rem;
+      }
+      .content h1,
+      p {
+        color: #926236;
+        font-size: 0.6rem;
+      }
+      button {
+        background: none;
+          background-color: rgba(0, 0, 0, 0);
+        border: none;
+        padding: 0.3rem 2rem;
+        border: 1px solid #926236;
+        border-radius: 10px;
+        color: #926236;
+        margin-top: 0.7rem;
+        cursor: pointer;
+        font-size: 0.6rem;
+      }
+      .section-a {
+        background-color: #926236;
+        padding: 1rem 1rem;
+      }
+      .section-a p{
+        font-size: 0.5rem;
+      }
+      .main-box-section{
+        flex-direction: column;
+        height: 59vh;
+      }
+      #box2 {
+        padding: 0.5rem 1rem;
+        background-color: #f4f4f4;
+      }
+      #box3 {
+        color: #fff;
+        font-size: 0.5rem;
+      }
+}
